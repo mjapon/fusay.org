@@ -61,6 +61,7 @@
 
 
   // testimonial
+/*
   $('.testimonial-slider-single').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -71,9 +72,10 @@
     prevArrow: '<buttton class="prevarrow"></buttton>'
   });
 
+*/
 
   // blog slider
-  $('.blog-slider').slick({
+  /*$('.blog-slider').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
@@ -157,7 +159,7 @@
         }
       }
     ]
-  });
+  });*/
 
   // Aos js
   AOS.init({

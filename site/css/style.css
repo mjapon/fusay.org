@@ -10,7 +10,8 @@ VERSION:	Versoin Number
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Poppins:300,400,500,600,700");
 body {
   line-height: 1.6;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Open Sans", sans-serif;*/
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
   color: #8b8e93;
@@ -145,12 +146,12 @@ h6,
 
 .btn-white {
   background: #fff;
-  color: #0097d5;
+  color: #9BCB8B;
   border: 1px solid #fff;
 }
 
 .btn-white:hover {
-  color: #0097d5;
+  color: #9BCB8B;
   background: #fff;
 }
 
@@ -168,14 +169,14 @@ h6,
 }
 
 .btn-outline-primary {
-  color: #00e0d8;
-  border: 2px solid #00e0d8;
+  color: #007348;
+  border: 2px solid #9BCB8B;
 }
 
 .btn-outline-primary:hover {
   color: #fff !important;
   background: none;
-  border: 2px solid #00e0d8;
+  border: 2px solid #9BCB8B;
 }
 
 .btn-outline-primary:hover i {
@@ -188,6 +189,10 @@ h6,
 
 .btn-outline-primary.active {
   background: none;
+}
+
+.colorfusay {
+  color: #007348 !important;
 }
 
 .btn-outline-primary:after {
@@ -209,7 +214,7 @@ h6,
 }
 
 .btn-outline-white:hover {
-  color: #0097d5;
+  color: #9BCB8B;
   background: #fff;
 }
 
@@ -246,7 +251,7 @@ select:focus {
 a.text-color:hover,
 a.text-dark:hover,
 a.text-light:hover {
-  color: #007ac7 !important;
+  color: #9BCB8B !important;
 }
 
 .text-color {
@@ -262,8 +267,24 @@ a.text-light:hover {
 }
 
 .text-secondary {
-  color: #00e0d8 !important;
+  /*color: #00e0d8 !important;*/
 }
+
+.fondotituloA{
+
+/*  background-image: linear-gradient(to right, #ffffff, #ebf3ff, #c8ecfd, #a2e6eb, #8dddc9, #8dddc9, #8dddc9, #8dddc9, #a2e6eb, #c8ecfd, #ebf3ff, #ffffff);*/
+
+    background: linear-gradient(90deg, #ffffff 0%, #9BCB8B 100%);
+}
+
+.fondotituloB{
+
+  /*  background-image: linear-gradient(to right, #ffffff, #ebf3ff, #c8ecfd, #a2e6eb, #8dddc9, #8dddc9, #8dddc9, #8dddc9, #a2e6eb, #c8ecfd, #ebf3ff, #ffffff);*/
+
+  background: linear-gradient(90deg, #9BCB8B 0%,  #ffffff 100%);
+}
+
+
 
 .bg-gradient-primary {
   background: linear-gradient(80deg, #007348 0%, #9BCB8B 100%);
@@ -276,7 +297,7 @@ a.text-light:hover {
 }
 
 .btn-primary-gradient {
-  background: linear-gradient(45deg, #00a8f4 0%, #02d1a1 100%);
+  background: linear-gradient(80deg, #007348 0%, #9BCB8B 100%);
 }
 
 .bg-gradient-purple {
@@ -422,14 +443,14 @@ a.text-light:hover {
 }
 
 .section {
-  padding-top: 140px;
-  padding-bottom: 140px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 @media (max-width: 991px) {
   .section {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 
@@ -1861,14 +1882,14 @@ form textarea {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 40rem;
 }
 .carousel-item > img {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 32rem;
+  height: 40rem;
 }
 
 
