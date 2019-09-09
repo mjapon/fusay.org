@@ -39,7 +39,7 @@ module.exports = function (grunt) {
                     '<%= rutas.path_sitejs %>/aos.js',
                     '<%= rutas.path_sitejs %>/script.js'
                 ],
-                dest: '<%= rutas.path_dist %>/applib.js'
+                dest: '<%= rutas.path_dist %>/applib.min.js'
             }
         }
     });
